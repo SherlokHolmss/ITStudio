@@ -1,0 +1,78 @@
+.mobileapps {
+    &-title {
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52.66px;
+        text-align: center;
+        color: rgba(50, 50, 50, 1);
+        max-width: 739px;
+    }
+
+    &-description {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.36px;
+        text-align: center;
+        color: rgba(153, 153, 153, 1);
+        max-width: 730px;
+    }
+
+    &-list {
+        display: flex;
+        &-wrap{
+            margin-left: 17px;
+        }
+        &-firstcircle {
+            width: 110px;
+            height: 110px;
+            border: 1px solid rgba(224, 224, 224, 1);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 29px;
+        }
+
+        &-secondcircle {
+            width: 90px;
+            height: 90px;
+            border: 1px solid rgba(73, 133, 255, 1);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-item {
+            display: flex;
+            max-width: 353px;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.mobileapps-list-title {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+    max-width: 226px;
+    max-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 46px;
+    margin-bottom: 12px;
+}
+
+.mobileapps-list-description {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.19px;
+    text-align: left;
+    max-width: 222px;
+    color: rgba(153, 153, 153, 1);
+
+}

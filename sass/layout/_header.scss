@@ -1,0 +1,22 @@
+.header {
+    padding: 40px 0;
+    position: absolute;
+    border-bottom: 1px solid rgba(161, 161, 161, 1);
+    min-width: 100%;
+    &-nav {
+        &-list {
+            display: flex;
+            gap: 39px;
+            align-items: center;
+            justify-content: right;
+        }
+    }
+}
+.nav-list-link{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
