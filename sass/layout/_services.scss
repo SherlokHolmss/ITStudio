@@ -1,0 +1,70 @@
+.section-services {
+    padding: 100px 0 85px 0;
+    background-image: linear-gradient(rgba(80, 77, 194, 1),rgba(95, 18, 208, 1));
+
+    &-wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-title {
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52.66px;
+        text-align: left;
+        max-width: 540px;
+
+    }
+    &-line{
+        margin: 85px 0;
+        width: 1110px;
+        height: 1px;
+        border: 1px solid rgba(224, 224, 224, 1);
+    }
+    // &-button {
+    //     display: block;
+    //     margin-right: auto;
+    // }
+
+    &-list {
+        margin-top: 70px;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.services-list-img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.services-list-title {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+    margin:30px 0;
+}
+
+.services-list-description {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.36px;
+    text-align: left;
+    color: rgba(153, 153, 153, 1);
+    margin-bottom: 47px;
+}
+
+.services-list-link {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+
+    color: rgba(73, 133, 255, 1);
+    text-decoration: underline;
+}

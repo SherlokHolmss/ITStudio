@@ -1,4 +1,11 @@
 .mobileapps {
+    padding-top: 110px;
+    padding-bottom: 105px;
+    &-button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 55px;
+    }
     &-title {
         font-family: Montserrat;
         font-size: 36px;
@@ -7,6 +14,9 @@
         text-align: center;
         color: rgba(50, 50, 50, 1);
         max-width: 739px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 33px;
     }
 
     &-description {
@@ -17,10 +27,14 @@
         text-align: center;
         color: rgba(153, 153, 153, 1);
         max-width: 730px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 70px;
     }
 
     &-list {
         display: flex;
+        gap: 27px;
         &-wrap{
             margin-left: 17px;
         }
