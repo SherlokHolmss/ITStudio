@@ -194,6 +194,10 @@ button {
       flex-wrap: wrap;
 }
 
+.mobileapps-list-svg {
+  fill: rgb(73, 133, 255);
+}
+
 .mobileapps-list-title {
   font-family: Montserrat;
   font-size: 18px;
@@ -306,6 +310,10 @@ button {
   color: rgb(153, 153, 153);
 }
 
+.development-list-svg {
+  fill: rgb(73, 133, 255);
+}
+
 .section-services {
   padding: 100px 0 85px 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(80, 77, 194)), to(rgb(95, 18, 208)));
@@ -328,6 +336,7 @@ button {
   line-height: 52.66px;
   text-align: left;
   max-width: 540px;
+  color: rgb(255, 255, 255);
 }
 .section-services-line {
   margin: 85px 0;
@@ -433,8 +442,7 @@ button {
 
 .section-work {
   padding: 70px 0 85px 0;
-  background-image: url(/img/bg.png);
-  background-size: 1920px 570px;
+  background-image: url(/img/bg2.png);
   background-repeat: no-repeat;
   opacity: 90%;
 }
