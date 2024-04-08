@@ -310,6 +310,8 @@ button {
   padding: 100px 0 85px 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(80, 77, 194)), to(rgb(95, 18, 208)));
   background-image: linear-gradient(rgb(80, 77, 194), rgb(95, 18, 208));
+  background-repeat: no-repeat;
+  background-size: 1920px 480px;
 }
 .section-services-wrap {
   display: -webkit-box;
@@ -431,7 +433,9 @@ button {
 
 .section-work {
   padding: 70px 0 85px 0;
-  background-color: rgb(246, 246, 248);
+  background-image: url(/img/bg.png);
+  background-size: 1920px 570px;
+  background-repeat: no-repeat;
   opacity: 90%;
 }
 .section-work-line {
@@ -584,4 +588,166 @@ button {
   text-align: center;
   color: rgb(153, 153, 153);
   margin-top: 35px;
+}
+
+.footer {
+  padding: 70px 0 30px 0;
+}
+.footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer-line {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  width: 1110px;
+  height: 1px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.footer-description {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.6px;
+  text-align: center;
+  color: rgb(153, 153, 153);
+}
+.footer-list-title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  margin-bottom: 35px;
+}
+
+.contacts-addess-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div-socialmedia-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.div-projects-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.addess-list-link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.19px;
+  text-align: left;
+  color: rgb(153, 153, 153);
+}
+
+.first-addess-list-link::before {
+  content: url(../../img/mail.png);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-nav-list-link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.19px;
+  text-align: left;
+  color: rgb(153, 153, 153);
+}
+.footer-nav-list-link::before {
+  content: url(../../img/pointer.png);
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.projects-list-link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.19px;
+  text-align: left;
+  color: rgb(153, 153, 153);
+}
+.projects-list-link::before {
+  content: url(../../img/pointer.png);
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.socialmedia-list-link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.19px;
+  text-align: left;
+  color: rgb(153, 153, 153);
+}
+.socialmedia-list-link::before {
+  content: url(../../img/pointer.png);
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.second-addess-list-link::before {
+  content: url(../../img/phone.png);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.third-addess-list-link::before {
+  content: url(../../img/mark.png);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 15px;
 }/*# sourceMappingURL=main.css.map */

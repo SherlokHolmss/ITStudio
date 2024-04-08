@@ -1,0 +1,141 @@
+.footer {
+    padding: 70px 0 30px 0;
+
+    &-wrap {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    &-line {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        width: 1110px;
+        height: 1px;
+        border: 1px solid rgba(224, 224, 224, 1);
+    }
+
+    &-description {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20.6px;
+        text-align: center;
+        color: rgba(153, 153, 153, 1);
+    }
+
+    &-list {
+        &-title {
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 21.94px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+            margin-bottom: 35px;
+        }
+    }
+}
+
+.contacts-addess-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.div-nav-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.div-socialmedia-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.div-projects-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.addess-list-link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.19px;
+    text-align: left;
+    color: rgba(153, 153, 153, 1);
+
+}
+
+.first-addess-list-link::before {
+    content: url(../../img/mail.png);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-nav-list-link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.19px;
+    text-align: left;
+    color: rgba(153, 153, 153, 1);
+    &::before{
+        content: url(../../img/pointer.png);
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+.projects-list-link{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.19px;
+    text-align: left;
+    color: rgba(153, 153, 153, 1);
+    &::before{
+        content: url(../../img/pointer.png);
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+.socialmedia-list-link{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.19px;
+    text-align: left;
+    color: rgba(153, 153, 153, 1);
+    &::before{
+        content: url(../../img/pointer.png);
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+.second-addess-list-link::before {
+    content: url(../../img/phone.png);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.third-addess-list-link::before {
+    content: url(../../img/mark.png);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 15px;
+}
