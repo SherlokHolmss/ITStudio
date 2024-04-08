@@ -365,6 +365,12 @@ button {
   line-height: 21.94px;
   text-align: left;
   margin: 30px 0;
+  counter-reset: chapter;
+}
+.services-list-title::before {
+  content: "0" counter(chapter) ". ";
+  counter-increment: chapter;
+  color: rgb(73, 133, 255);
 }
 
 .services-list-description {
