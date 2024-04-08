@@ -78,7 +78,7 @@ button {
 }
 
 .hero {
-  background-image: url("../../img/bg.png");
+  background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
   padding-top: 219px;
@@ -442,7 +442,7 @@ button {
 
 .section-work {
   padding: 70px 0 85px 0;
-  background-image: url(/img/bg2.png);
+  background-image: url(../img/bg2.png);
   background-repeat: no-repeat;
   opacity: 90%;
 }
@@ -484,7 +484,7 @@ button {
           align-items: center;
   border: 10px;
   margin: 0 auto;
-  background-image: url(../../img/video-bg.png);
+  background-image: url(../img/video-bg.png);
   background-size: 970px, 430px;
   margin-top: 70px;
 }
