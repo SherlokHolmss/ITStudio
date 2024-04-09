@@ -692,10 +692,16 @@ button {
   line-height: 22.19px;
   text-align: left;
   color: rgb(153, 153, 153);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .first-addess-list-link::before {
-  content: url(../../img/mail.png);
+  content: url(../img/mail.png);
   width: 15px;
   height: 15px;
   display: inline-block;

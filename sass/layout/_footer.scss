@@ -68,11 +68,12 @@
     line-height: 22.19px;
     text-align: left;
     color: rgba(153, 153, 153, 1);
-
+    display: flex;
+    align-items: center;
 }
 
 .first-addess-list-link::before {
-    content: url(../../img/mail.png);
+    content: url(../img/mail.png);
     width: 15px;
     height: 15px;
     display: inline-block;
