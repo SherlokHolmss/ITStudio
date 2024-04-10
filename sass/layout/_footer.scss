@@ -88,7 +88,7 @@
     text-align: left;
     color: rgba(153, 153, 153, 1);
     &::before{
-        content: url(../../img/pointer.png);
+        content: url(../img/pointer.png);
         width: 10px;
         height: 10px;
         display: inline-block;
@@ -103,7 +103,7 @@
     text-align: left;
     color: rgba(153, 153, 153, 1);
     &::before{
-        content: url(../../img/pointer.png);
+        content: url(../img/pointer.png);
         width: 10px;
         height: 10px;
         display: inline-block;
@@ -118,7 +118,7 @@
     text-align: left;
     color: rgba(153, 153, 153, 1);
     &::before{
-        content: url(../../img/pointer.png);
+        content: url(../img/pointer.png);
         width: 10px;
         height: 10px;
         display: inline-block;
@@ -126,7 +126,7 @@
     }
 }
 .second-addess-list-link::before {
-    content: url(../../img/phone.png);
+    content: url(../img/phone.png);
     width: 15px;
     height: 15px;
     display: inline-block;
@@ -134,7 +134,7 @@
 }
 
 .third-addess-list-link::before {
-    content: url(../../img/mark.png);
+    content: url(../img/mark.png);
     width: 15px;
     height: 15px;
     display: inline-block;
