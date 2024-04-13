@@ -19,4 +19,18 @@
     line-height: 19.5px;
     text-align: left;
     color: rgba(255, 255, 255, 1);
+
+    &-current{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 107px;
+            height: 1px;
+            border: 1px solid rgba(255, 255, 255, 1);
+            margin-top: 58px;
+        }
+    }
 }

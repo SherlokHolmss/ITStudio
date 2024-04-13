@@ -76,6 +76,23 @@ button {
   text-align: left;
   color: rgb(255, 255, 255);
 }
+.nav-list-link-current {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.nav-list-link-current::before {
+  content: "";
+  position: absolute;
+  width: 107px;
+  height: 1px;
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 58px;
+}
 
 .hero {
   background-image: url("../img/bg.png");
@@ -606,6 +623,7 @@ button {
 
 .footer {
   padding: 70px 0 30px 0;
+  color: rgb(246, 246, 248);
 }
 .footer-wrap {
   display: -webkit-box;
@@ -717,7 +735,7 @@ button {
   color: rgb(153, 153, 153);
 }
 .footer-nav-list-link::before {
-  content: url(../../img/pointer.png);
+  content: url(../img/pointer.png);
   width: 10px;
   height: 10px;
   display: inline-block;
@@ -733,7 +751,7 @@ button {
   color: rgb(153, 153, 153);
 }
 .projects-list-link::before {
-  content: url(../../img/pointer.png);
+  content: url(../img/pointer.png);
   width: 10px;
   height: 10px;
   display: inline-block;
@@ -749,7 +767,7 @@ button {
   color: rgb(153, 153, 153);
 }
 .socialmedia-list-link::before {
-  content: url(../../img/pointer.png);
+  content: url(../img/pointer.png);
   width: 10px;
   height: 10px;
   display: inline-block;
@@ -757,7 +775,7 @@ button {
 }
 
 .second-addess-list-link::before {
-  content: url(../../img/phone.png);
+  content: url(../img/phone.png);
   width: 15px;
   height: 15px;
   display: inline-block;
@@ -765,7 +783,7 @@ button {
 }
 
 .third-addess-list-link::before {
-  content: url(../../img/mark.png);
+  content: url(../img/mark.png);
   width: 15px;
   height: 15px;
   display: inline-block;
