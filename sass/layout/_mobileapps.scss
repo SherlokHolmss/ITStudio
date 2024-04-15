@@ -46,7 +46,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: 29px;
         }
 
         &-secondcircle {
@@ -56,13 +55,12 @@
             border-radius: 50%;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: center;    
         }
 
         &-item {
             display: flex;
             max-width: 353px;
-            flex-wrap: wrap;
         }
     }
 }
